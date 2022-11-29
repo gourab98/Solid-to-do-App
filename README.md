@@ -1,5 +1,5 @@
 # Solid-to-do-App
-It is a solid app where a pod holder can log into solid account with webID and make a create and delete to-do-list.
+It is a solid specification-based application where a pod holder can log into the pod server with the help of a web ID and create and delete a to-do list in the pod server. Used: RDF Turtle Format, React,Node.js.
 
 
 # Getting Started with Create React App

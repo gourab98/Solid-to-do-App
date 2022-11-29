@@ -1,0 +1,53 @@
+.app-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.oidc-issuer-input {
+  width: 12rem;
+  margin: 0.4rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+
+.message button {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: #fff;
+  height: 3rem;
+  width: 10rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  background-color: blueviolet;
+  align-self: center;
+  margin: 25px;
+}
+
+.logged-in {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.logged-in span {
+  margin: 0.2rem;
+}
+
+.logged-in button {
+  font-size: 16px;
+  height: 2rem;
+  width: 6rem;
+  margin: 5px;
+}
